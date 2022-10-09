@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Rochester&display=swap');
+
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rochester', cursive;
+}

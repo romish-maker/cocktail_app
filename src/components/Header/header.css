@@ -1,0 +1,17 @@
+.header__container {
+    background-color: var(--colors-green-100);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 30px;
+}
+.button {
+    font-family: 'Asap', sans-serif;
+    border: 1px solid var(--colors-white-300);
+    border-radius: 10px;
+    padding: 16px;
+    color: var(--colors-white-200);
+    font-weight: var(--fontWeights-400);
+    line-height: var(--lineHeights-sm);
+    width: 150px;
+}
