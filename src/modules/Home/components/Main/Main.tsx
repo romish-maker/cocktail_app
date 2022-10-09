@@ -1,6 +1,7 @@
 import {Box, Image} from "@chakra-ui/react";
 import './main.css';
-import image from './../../images/coctail1.svg'
+import image from '../../../../images/coctail1.svg'
+import React from "react";
 
 enum title {
     mainTitle = 'Cocktail App',

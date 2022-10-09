@@ -10,7 +10,7 @@ import {
     ModalOverlay,
     useDisclosure
 } from "@chakra-ui/react";
-import Logo from '../../images/Logo.svg'
+import Logo from '../../../../images/Logo.svg'
 import './header.css'
 
 export const Header = () => {
