@@ -1,5 +1,5 @@
 .main__wrapper {
-    background-image: var(--colors-gray-100);
+    background-color: var(--colors-gray-100);
     min-height: 100vh;
 }
 
