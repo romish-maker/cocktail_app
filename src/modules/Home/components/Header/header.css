@@ -1,5 +1,5 @@
 .header__container {
-    background-color: var(--colors-green-100);
+    background-color: var(--romish-colors-green-100);
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -7,11 +7,13 @@
 }
 .button {
     font-family: 'Asap', sans-serif;
-    border: 1px solid var(--colors-white-300);
+    border: 1px solid var(--romish-colors-white-300);
     border-radius: 10px;
     padding: 16px;
-    color: var(--colors-white-200);
-    font-weight: var(--fontWeights-400);
-    line-height: var(--lineHeights-sm);
+    color: var(--romish-colors-white-200);
+    background-color: var(--romish-colors-green-100) !important;
+    line-height: var(--romish-lineHeights-sm);
     width: 150px;
+    font-size: var(--romish-fontSizes-sm) !important;
+    height: initial !important;
 }

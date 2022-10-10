@@ -1,5 +1,5 @@
 .main__wrapper {
-    background-color: var(--colors-gray-100);
+    background-color: var(--romish-colors-gray-100);
     min-height: 100vh;
 }
 
@@ -14,20 +14,20 @@
 }
 
 .main__title {
-    color: var(--colors-green-100);
-    font-size: var(--fontSizes-xxl);
-    line-height: var(--lineHeights-xxl);
+    color: var(--romish-colors-green-100);
+    font-size: var(--romish-fontSizes-xxl);
+    line-height: var(--romish-lineHeights-xxl);
     text-align: center;
     padding-top: 60px;
     padding-bottom: 40px;
 }
 
 .main__text {
-    font-family: 'Asap', sans-serif;
-    font-size: var(--fontSizes-md);
-    font-weight: var(--fontWeights-400);
-    line-height: var(--lineHeights-md);
-    color: var(--colors-green-200);
+    font-family: var(--romish-fonts-heading);
+    font-size: var(--romish-fontSizes-md);
+    font-weight: var(--romish-fontWeights-400);
+    line-height: var(--romish-lineHeights-md);
+    color: var(--romish-colors-green-200);
     max-width: 460px;
     margin-bottom: 40px;
 }
@@ -38,10 +38,10 @@
 
 .main__text-blur {
     font-family: 'Asap', sans-serif;
-    font-size: var(--fontSizes-md);
-    line-height: var(--lineHeights-md);
-    font-weight: var(--fontWeights-400);
-    color: var(--colors-green-200);
+    font-size: var(--romish-fontSizes-md);
+    line-height: var(--romish-lineHeights-md);
+    font-weight: var(--romish-fontWeights-400);
+    color: var(--romish-colors-green-200);
     filter: blur(4px);
     text-transform: capitalize;
     max-width: 460px;

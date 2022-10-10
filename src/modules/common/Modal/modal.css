@@ -1,0 +1,39 @@
+.modal__header {
+    background-color: var(--romish-colors-green-100);
+    font-size: var(--romish-fontSizes-md);
+    color: var(--romish-colors-white-300);
+    line-height: var(--romish-lineHeights-md);
+    font-family: var(--romish-fonts-heading);
+    font-weight: var(--romish-fontWeights-normal);
+}
+
+.modal__body {
+    background-color: var(--romish-colors-white-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.modal__body-title {
+    font-weight: var(--romish-fontWeights-normal);
+    font-size: var(--romish-fontSizes-md);
+    text-align: center;
+    margin: 30px 0;
+    color: var(--romish-colors-grey-100)
+}
+
+.modal__body-form {
+    font-family: var(--romish-fonts-heading);
+}
+
+.modal__body_item-form {
+    margin-top: 54px;
+}
+
+.modal__body-account {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.modal__body-account-sign {
+    color: var(--romish-colors-green-100);
+}

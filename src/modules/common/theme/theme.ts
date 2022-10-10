@@ -1,6 +1,9 @@
-export const theme = {
+import {extendTheme} from "@chakra-ui/react";
+
+export const theme = extendTheme({
     fontSizes: {
         sm: '16px',
+        ml: '22px',
         md: '32px',
         xxl: '100px',
     },
@@ -27,12 +30,11 @@ export const theme = {
         }
     },
     fonts: {
-        heading: 'italic'
+        body: 'Rochester, cursive',
+        heading: 'Asap, sans-serif',
     },
-    borders: {
-        none: 'none',
-        radius: {
-            10: '10px',
-        }
-    }
-}
+    config: {
+        cssVarPrefix: 'romish',
+    },
+    components: {}
+})
